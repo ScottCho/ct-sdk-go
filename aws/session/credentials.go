@@ -5,14 +5,14 @@ import (
 	"os"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/credentials/processcreds"
-	"ct-sdk-go/aws/credentials/stscreds"
-	"ct-sdk-go/aws/defaults"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/internal/shareddefaults"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials/processcreds"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials/stscreds"
+	"github.com/ScottCho/ct-sdk-go/aws/defaults"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/internal/shareddefaults"
 )
 
 func resolveCredentials(cfg *aws.Config,

@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/private/protocol"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/private/protocol"
 )
 
 var millisecondsFloat = new(big.Float).SetInt64(1e3)

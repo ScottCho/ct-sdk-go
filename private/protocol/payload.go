@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/client/metadata"
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/client/metadata"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 // PayloadUnmarshaler provides the interface for unmarshaling a payload's

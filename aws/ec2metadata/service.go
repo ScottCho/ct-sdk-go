@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/client"
-	"ct-sdk-go/aws/client/metadata"
-	"ct-sdk-go/aws/corehandlers"
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/client"
+	"github.com/ScottCho/ct-sdk-go/aws/client/metadata"
+	"github.com/ScottCho/ct-sdk-go/aws/corehandlers"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 const (

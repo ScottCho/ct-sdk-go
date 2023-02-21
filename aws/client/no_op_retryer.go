@@ -3,7 +3,7 @@ package client
 import (
 	"time"
 
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 // NoOpRetryer provides a retryer that performs no retries.

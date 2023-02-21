@@ -4,11 +4,11 @@ import (
 	"net/url"
 	"strings"
 
-	"ct-sdk-go/aws"
-	awsarn "ct-sdk-go/aws/arn"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/internal/s3shared"
-	"ct-sdk-go/internal/s3shared/arn"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	awsarn "github.com/ScottCho/ct-sdk-go/aws/arn"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/internal/s3shared"
+	"github.com/ScottCho/ct-sdk-go/internal/s3shared/arn"
 )
 
 // Used by shapes with members decorated as endpoint ARN.

@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/endpoints"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/endpoints"
 )
 
 // UseServiceDefaultRetries instructs the config to use the service's own

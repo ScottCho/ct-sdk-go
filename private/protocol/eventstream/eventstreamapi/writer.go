@@ -1,8 +1,8 @@
 package eventstreamapi
 
 import (
-	"ct-sdk-go/private/protocol"
-	"ct-sdk-go/private/protocol/eventstream"
+	"github.com/ScottCho/ct-sdk-go/private/protocol"
+	"github.com/ScottCho/ct-sdk-go/private/protocol/eventstream"
 )
 
 // Marshaler provides a marshaling interface for event types to event stream

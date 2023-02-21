@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws"
 )
 
 type byteSlicePool interface {

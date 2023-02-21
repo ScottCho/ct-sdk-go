@@ -83,13 +83,13 @@ import (
 	"os"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/client"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/internal/sdkrand"
-	"ct-sdk-go/service/sts"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/client"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/internal/sdkrand"
+	"github.com/ScottCho/ct-sdk-go/service/sts"
 )
 
 // StdinTokenProvider will prompt on stderr and read from stdin for a string value.

@@ -1,7 +1,7 @@
 package v4
 
 import (
-	"ct-sdk-go/internal/strings"
+	"github.com/ScottCho/ct-sdk-go/internal/strings"
 )
 
 // validator houses a set of rule needed for validation of a

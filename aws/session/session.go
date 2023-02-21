@@ -10,15 +10,15 @@ import (
 	"os"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/client"
-	"ct-sdk-go/aws/corehandlers"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/csm"
-	"ct-sdk-go/aws/defaults"
-	"ct-sdk-go/aws/endpoints"
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/client"
+	"github.com/ScottCho/ct-sdk-go/aws/corehandlers"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/csm"
+	"github.com/ScottCho/ct-sdk-go/aws/defaults"
+	"github.com/ScottCho/ct-sdk-go/aws/endpoints"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 const (

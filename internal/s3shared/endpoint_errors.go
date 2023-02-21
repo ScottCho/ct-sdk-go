@@ -3,8 +3,8 @@ package s3shared
 import (
 	"fmt"
 
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/internal/s3shared/arn"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/internal/s3shared/arn"
 )
 
 const (

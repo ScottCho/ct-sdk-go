@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
 )
 
 // OpenFile takes a path to a given file, and will open  and parse

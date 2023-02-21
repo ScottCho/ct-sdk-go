@@ -3,8 +3,8 @@ package eventstreamapi
 import (
 	"fmt"
 
-	"ct-sdk-go/private/protocol"
-	"ct-sdk-go/private/protocol/eventstream"
+	"github.com/ScottCho/ct-sdk-go/private/protocol"
+	"github.com/ScottCho/ct-sdk-go/private/protocol/eventstream"
 )
 
 // Unmarshaler provides the interface for unmarshaling a EventStream

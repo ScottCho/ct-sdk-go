@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/defaults"
-	"ct-sdk-go/aws/endpoints"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/defaults"
+	"github.com/ScottCho/ct-sdk-go/aws/endpoints"
 )
 
 // EnvProviderName provides a name of the provider when config is loaded from environment.

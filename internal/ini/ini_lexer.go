@@ -5,7 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
 )
 
 const (

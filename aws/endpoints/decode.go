@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
 )
 
 type modelDefinition map[string]json.RawMessage

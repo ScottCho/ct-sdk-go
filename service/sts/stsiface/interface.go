@@ -9,9 +9,9 @@
 package stsiface
 
 import (
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/service/sts"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/service/sts"
 )
 
 // STSAPI provides an interface to enable mocking the

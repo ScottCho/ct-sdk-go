@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/client/metadata"
-	"ct-sdk-go/internal/sdkio"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/client/metadata"
+	"github.com/ScottCho/ct-sdk-go/internal/sdkio"
 )
 
 const (

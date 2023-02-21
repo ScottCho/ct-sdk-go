@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awsutil"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awsutil"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 const opAssumeRole = "AssumeRole"

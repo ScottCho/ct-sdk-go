@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 // RequireHTTPMinProtocol request handler is used to enforce that

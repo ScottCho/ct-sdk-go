@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"ct-sdk-go/private/protocol"
+	"github.com/ScottCho/ct-sdk-go/private/protocol"
 )
 
 // BuildXML will serialize params into an xml.Encoder. Error will be returned

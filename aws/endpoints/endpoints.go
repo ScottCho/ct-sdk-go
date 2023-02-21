@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
 )
 
 // Options provide the configuration needed to direct how the

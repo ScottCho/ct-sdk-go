@@ -1,7 +1,7 @@
 package defaults
 
 import (
-	"ct-sdk-go/internal/shareddefaults"
+	"github.com/ScottCho/ct-sdk-go/internal/shareddefaults"
 )
 
 // SharedCredentialsFilename returns the SDK's default file path

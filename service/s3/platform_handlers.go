@@ -3,7 +3,7 @@
 
 package s3
 
-import "ct-sdk-go/aws/request"
+import "github.com/ScottCho/ct-sdk-go/aws/request"
 
 func platformRequestHandlers(r *request.Request) {
 }

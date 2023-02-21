@@ -53,8 +53,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/internal/sync/singleflight"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/internal/sync/singleflight"
 )
 
 // AnonymousCredentials is an empty Credential object that can be used as

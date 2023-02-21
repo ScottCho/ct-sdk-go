@@ -5,7 +5,7 @@ import (
 	"io"
 	"sync"
 
-	"ct-sdk-go/internal/sdkio"
+	"github.com/ScottCho/ct-sdk-go/internal/sdkio"
 )
 
 // WriterReadFrom defines an interface implementing io.Writer and io.ReaderFrom

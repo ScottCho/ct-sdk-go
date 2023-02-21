@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/client"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/service/sts"
-	"ct-sdk-go/service/sts/stsiface"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/client"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/service/sts"
+	"github.com/ScottCho/ct-sdk-go/service/sts/stsiface"
 )
 
 const (

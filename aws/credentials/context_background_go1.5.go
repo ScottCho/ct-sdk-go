@@ -4,7 +4,7 @@
 package credentials
 
 import (
-	"ct-sdk-go/internal/context"
+	"github.com/ScottCho/ct-sdk-go/internal/context"
 )
 
 // backgroundContext returns a context that will never be canceled, has no

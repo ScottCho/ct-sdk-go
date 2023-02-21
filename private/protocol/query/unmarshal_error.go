@@ -4,9 +4,9 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/private/protocol/xml/xmlutil"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/private/protocol/xml/xmlutil"
 )
 
 // UnmarshalErrorHandler is a name request handler to unmarshal request errors

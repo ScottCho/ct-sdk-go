@@ -1,4 +1,4 @@
-module ct-sdk-go
+module github.com/ScottCho/ct-sdk-go
 
 go 1.18
 

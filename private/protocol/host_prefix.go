@@ -3,8 +3,8 @@ package protocol
 import (
 	"strings"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 // HostPrefixHandlerName is the handler name for the host prefix request

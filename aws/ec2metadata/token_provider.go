@@ -5,9 +5,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 // A tokenProvider struct provides access to EC2Metadata client

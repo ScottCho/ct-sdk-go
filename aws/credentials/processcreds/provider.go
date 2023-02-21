@@ -88,9 +88,9 @@ import (
 	"strings"
 	"time"
 
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/internal/sdkio"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/internal/sdkio"
 )
 
 const (

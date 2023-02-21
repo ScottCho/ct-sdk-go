@@ -3,12 +3,12 @@
 package s3
 
 import (
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/client"
-	"ct-sdk-go/aws/client/metadata"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/aws/signer/v4"
-	"ct-sdk-go/private/protocol/restxml"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/client"
+	"github.com/ScottCho/ct-sdk-go/aws/client/metadata"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws/signer/v4"
+	"github.com/ScottCho/ct-sdk-go/private/protocol/restxml"
 )
 
 // S3 provides the API operation methods for making requests to

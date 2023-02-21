@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/awsutil"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/awsutil"
 )
 
 // WaiterResourceNotReadyErrorCode is the error code returned by a waiter when

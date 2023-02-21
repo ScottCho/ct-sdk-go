@@ -4,13 +4,13 @@ import (
 	"net/url"
 	"strings"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/endpoints"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/internal/s3shared"
-	"ct-sdk-go/internal/s3shared/arn"
-	"ct-sdk-go/private/protocol"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/endpoints"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/internal/s3shared"
+	"github.com/ScottCho/ct-sdk-go/internal/s3shared/arn"
+	"github.com/ScottCho/ct-sdk-go/private/protocol"
 )
 
 const (

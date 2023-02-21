@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/endpoints"
-	"ct-sdk-go/internal/ini"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/endpoints"
+	"github.com/ScottCho/ct-sdk-go/internal/ini"
 )
 
 const (

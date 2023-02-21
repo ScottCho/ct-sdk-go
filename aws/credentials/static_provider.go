@@ -1,7 +1,7 @@
 package credentials
 
 import (
-	"ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
 )
 
 // StaticProviderName provides a name of Static provider

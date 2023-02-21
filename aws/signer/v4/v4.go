@@ -68,11 +68,11 @@ import (
 	"strings"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/internal/sdkio"
-	"ct-sdk-go/private/protocol/rest"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/internal/sdkio"
+	"github.com/ScottCho/ct-sdk-go/private/protocol/rest"
 )
 
 const (

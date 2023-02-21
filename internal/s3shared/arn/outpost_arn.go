@@ -3,7 +3,7 @@ package arn
 import (
 	"strings"
 
-	"ct-sdk-go/aws/arn"
+	"github.com/ScottCho/ct-sdk-go/aws/arn"
 )
 
 // OutpostARN interface that should be satisfied by outpost ARNs

@@ -9,9 +9,9 @@
 package s3iface
 
 import (
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/service/s3"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/service/s3"
 )
 
 // S3API provides an interface to enable mocking the

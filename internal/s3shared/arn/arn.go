@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"ct-sdk-go/aws/arn"
+	"github.com/ScottCho/ct-sdk-go/aws/arn"
 )
 
 // Resource provides the interfaces abstracting ARNs of specific resource

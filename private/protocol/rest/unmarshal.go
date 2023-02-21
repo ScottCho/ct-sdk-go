@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/request"
-	awsStrings "ct-sdk-go/internal/strings"
-	"ct-sdk-go/private/protocol"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	awsStrings "github.com/ScottCho/ct-sdk-go/internal/strings"
+	"github.com/ScottCho/ct-sdk-go/private/protocol"
 )
 
 // UnmarshalHandler is a named request handler for unmarshaling rest protocol requests

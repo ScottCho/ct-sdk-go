@@ -1,10 +1,10 @@
 package s3
 
 import (
-	"ct-sdk-go/aws/client"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/internal/s3shared/arn"
-	"ct-sdk-go/internal/s3shared/s3err"
+	"github.com/ScottCho/ct-sdk-go/aws/client"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/internal/s3shared/arn"
+	"github.com/ScottCho/ct-sdk-go/internal/s3shared/s3err"
 )
 
 func init() {

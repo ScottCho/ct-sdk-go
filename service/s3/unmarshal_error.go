@@ -9,10 +9,10 @@ import (
 	"net/http"
 	"strings"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/private/protocol/xml/xmlutil"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/private/protocol/xml/xmlutil"
 )
 
 type xmlErrorResponse struct {

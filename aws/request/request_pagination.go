@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awsutil"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awsutil"
 )
 
 // A Pagination provides paginating of SDK API operations which are paginatable.

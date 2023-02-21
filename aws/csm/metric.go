@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws"
 )
 
 type metricTime time.Time

@@ -5,8 +5,8 @@ package s3
 import (
 	"time"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 // WaitUntilBucketExists uses the Amazon S3 API operation

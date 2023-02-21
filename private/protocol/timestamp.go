@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"ct-sdk-go/internal/sdkmath"
+	"github.com/ScottCho/ct-sdk-go/internal/sdkmath"
 )
 
 // Names of time formats supported by the SDK

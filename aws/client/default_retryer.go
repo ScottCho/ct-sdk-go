@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/internal/sdkrand"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/internal/sdkrand"
 )
 
 // DefaultRetryer implements basic retry logic using exponential backoff for

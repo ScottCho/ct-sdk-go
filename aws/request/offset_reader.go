@@ -4,7 +4,7 @@ import (
 	"io"
 	"sync"
 
-	"ct-sdk-go/internal/sdkio"
+	"github.com/ScottCho/ct-sdk-go/internal/sdkio"
 )
 
 // offsetReader is a thread-safe io.ReadCloser to prevent racing

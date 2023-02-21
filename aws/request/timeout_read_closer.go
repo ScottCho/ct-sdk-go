@@ -4,7 +4,7 @@ import (
 	"io"
 	"time"
 
-	"ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
 )
 
 var timeoutErr = awserr.New(

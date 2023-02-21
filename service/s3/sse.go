@@ -5,8 +5,8 @@ import (
 	"encoding/base64"
 	"net/http"
 
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
 )
 
 var errSSERequiresSSL = awserr.New("ConfigError", "cannot send SSE keys over HTTP.", nil)

@@ -7,14 +7,14 @@ import (
 	"sort"
 	"sync"
 
-	"ct-sdk-go/aws"
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/aws/awsutil"
-	"ct-sdk-go/aws/client"
-	"ct-sdk-go/aws/credentials"
-	"ct-sdk-go/aws/request"
-	"ct-sdk-go/service/s3"
-	"ct-sdk-go/service/s3/s3iface"
+	"github.com/ScottCho/ct-sdk-go/aws"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/aws/awsutil"
+	"github.com/ScottCho/ct-sdk-go/aws/client"
+	"github.com/ScottCho/ct-sdk-go/aws/credentials"
+	"github.com/ScottCho/ct-sdk-go/aws/request"
+	"github.com/ScottCho/ct-sdk-go/service/s3"
+	"github.com/ScottCho/ct-sdk-go/service/s3/s3iface"
 )
 
 // MaxUploadParts is the maximum allowed number of parts in a multi-part upload

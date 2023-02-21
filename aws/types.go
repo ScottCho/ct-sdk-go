@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"ct-sdk-go/internal/sdkio"
+	"github.com/ScottCho/ct-sdk-go/internal/sdkio"
 )
 
 // ReadSeekCloser wraps a io.Reader returning a ReaderSeekerCloser. Allows the

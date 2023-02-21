@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"ct-sdk-go/aws/awserr"
-	"ct-sdk-go/internal/ini"
-	"ct-sdk-go/internal/shareddefaults"
+	"github.com/ScottCho/ct-sdk-go/aws/awserr"
+	"github.com/ScottCho/ct-sdk-go/internal/ini"
+	"github.com/ScottCho/ct-sdk-go/internal/shareddefaults"
 )
 
 // SharedCredsProviderName provides a name of SharedCreds provider
